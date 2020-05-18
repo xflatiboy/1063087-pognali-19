@@ -32,6 +32,243 @@
       </header>
       <main class='catalog__main'>
         <!-- убрать eлемент, оставить только блок-->
+        <section class='service-block service-block--catalog'>
+          <div class='content-wrapper'>
+            <div class='filter'>
+              <button class='filter__button'><img src='img/filter.svg' width='15' height='10' alt='иконка фильтра'></button>
+              <button class='filter__button filter__text'>Фильтрация по странам</button>
+              <button class='filter__button'><img src='img/dots.svg' width='17' height='3'></button>
+            </div>
+            <div class='filter--on'>
+              <ul class='filter__continent'>
+                <li class='filter__text'>Европа</li>
+                <li class='filter__text filter__text--no-active'>Азия</li>
+                <li class='filter__text filter__text--no-active'>Америка</li>
+                <li class='filter__text filter__text--no-active'>Острова</li>
+              </ul>
+              <div class='filter__keyboard'>
+                <div class='filter__keyboard-item'>
+                  <p class='filter__keyboard-text filter__keyboard-text--curret'>А</p>
+                  <p class='filter__keyboard-text'>Б</p>
+                  <p class='filter__keyboard-text'>В</p>
+                  <p class='filter__keyboard-text'>Г</p>
+                  <p class='filter__keyboard-text'>Д</p>
+                </div>
+                <div class='filter__keyboard-item'>
+                  <p class='filter__keyboard-text'>Е</p>
+                  <p class='filter__keyboard-text'>З</p>
+                  <p class='filter__keyboard-text'>И</p>
+                  <p class='filter__keyboard-text'>К</p>
+                  <p class='filter__keyboard-text'>Л</p>
+                </div>
+                <div class='filter__keyboard-item'>
+                  <p class='filter__keyboard-text'>М</p>
+                  <p class='filter__keyboard-text'>Н</p>
+                  <p class='filter__keyboard-text'>О</p>
+                  <p class='filter__keyboard-text'>П</p>
+                  <p class='filter__keyboard-text'>Р</p>
+                </div>
+                <div class='filter__keyboard-item'>
+                  <p class='filter__keyboard-text'>С</p>
+                  <p class='filter__keyboard-text'>Т</p>
+                  <p class='filter__keyboard-text'>У</p>
+                  <p class='filter__keyboard-text'>Ф</p>
+                  <p class='filter__keyboard-text'>Х</p>
+                </div>
+                <div class='filter__keyboard-item'>
+                  <p class='filter__keyboard-text'>Ч</p>
+                  <p class='filter__keyboard-text'>Ш</p>
+                  <p class='filter__keyboard-text'>Э</p>
+                  <p class='filter__keyboard-text'>Ю</p>
+                  <p class='filter__keyboard-text'>Я</p>
+                </div>
+              </div>
+              <ul class='filter__country'>
+                <li class='filter__country-item'>Афганистан</li>
+                <li class='filter__country-item'>Албания</li>
+                <li class='filter__country-item'>Алжир</li>
+                <li class='filter__country-item'>Андорра</li>
+                <li class='filter__country-item'>Аргентина</li>
+                <li class='filter__country-item'>Армения</li>
+                <li class='filter__country-item'>Австралия</li>
+                <li class='filter__country-item'>Австрия</li>
+                <li class='filter__country-item'>Азербайджанм</li>
+              </ul>
+              <button class='button button--catalog'><img class='filter__button-img' src='img/filter-close.svg' width='12' height='12'>свернуть</button>
+            </div>
+          </div>
+        </section>
+        <section class='catalog__criterion'>
+          <div class='content-wrapper'>
+            <div class='criterion__content criterion__content--yellow'>
+              <h2 class='criterion__text criterion__text--size'>Подберите идеального попутчика</h2>
+              <div class='criterion__wrapper'>
+                <div class='criterion__menu'>
+                  <h3 class='criterion__text'>Хобби</h3>
+                  <button class='criterion__button'><img src='img/dropdown.svg' width='8' height='4'></button>
+                </div>
+              </div>
+              <div class='criterion__wrapper'>
+                <div class='criterion__menu'>
+                  <h3 class='criterion__text'>Музыка</h3>
+                  <button class='criterion__button'><img src='img/dropdown.svg' width='8' height='4'></button>
+                </div>
+              </div>
+              <div class='criterion__wrapper'>
+                <div class='criterion__menu'>
+                  <h3 class='criterion__text'>Еда</h3>
+                  <button class='criterion__button'><img src='img/dropdown.svg' width='8' height='4'></button>
+                </div>
+              </div>
+              <div class='criterion__wrapper'>
+                <div class='criterion__menu'>
+                  <h3 class='criterion__text'>Транспорт</h3>
+                  <button class='criterion__button'><img src='img/dropdown.svg' width='8' height='4'></button>
+                </div>
+              </div>
+              <div class='criterion__wrapper'>
+                <div class='criterion__menu'>
+                  <h3 class='criterion__text'>Левел</h3>
+                  <button class='criterion__button'><img src='img/dropdown.svg' width='8' height='4'></button>
+                </div>
+              </div>
+              <button class='button button--no-background'>Показать</button>
+            </div>
+            <div class='criterion__content'>
+              <div class='criterion__wrapper criterion__wrapper--no-border'>
+                <div class='criterion__user'>
+                  <img src='img/firsova-mobile@1x.jpg' width='70' height='70'>
+                  <p class='criterion__text criterion__text--name'>Таня
+                    Фирсова</p>
+                </div>
+                <p class='criterion__hashtag'>
+                  #ЗОЖ #ПП #Фитнес #пляж
+                  #авокадо #смузи
+                </p>
+                <div class='criterion__country'>
+                  <div class='criterion__country-item'>
+                    <img src='img/flag-sri-lanka.svg' width='26' height='18'>
+                    <p class='criterion__text criterion__text--country'>Шри-ланка</p>
+                  </div>
+                  <div class='criterion__country-item'>
+                    <img src='img/flag-thailand.svg' width='26' height='18'>
+                    <p class='criterion__text criterion__text--country'>Таиланд</p>
+                  </div>
+                  <div class='criterion__country-item'>
+                    <img src='img/flag-seychelles.svg' width='26' height='18'>
+                    <p class='criterion__text criterion__text--country'>Сейшелы</p>
+                  </div>
+                </div>
+                <div class='criterion__country'>
+                  <div class='criterion__country-item'>
+                    <div class='criterion__country-transport criterion__country-transport--is-active'></div>
+                    <div class='criterion__country-transport'></div>
+                    <div class='criterion__country-transport'></div>
+                    <div class='criterion__country-transport'></div>
+                  </div>
+                  <div class='criterion__country-level'>
+                    <div class='level level--catalog'>
+                      <p class='profile-form__item-text'>80</p>
+                      <div class='line-level-form'></div>
+                      <b class='profile-form__item-text'>level</b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--
+            <div class='catalog-menu'>
+              <button class='catalog-menu__button'>Открыть попап</button>
+              <h2 class='catalog-menu__h2'>Фильтрация по странам</h2>
+              <button class='catalog-menu__...'>открыть меню</button>
+              <div class='catalog-menu__popup'>
+                <ul class='mainland-list'>
+                  <li class='mainland-item'>Европа</li>
+                  <li class='mainland-item'>Азия</li>
+                  <li class='mainland-item'>Америка</li>
+                  <li class='mainland-item'>Острова</li>
+                </ul>
+                <div class='catalog-menu__keyboard'>
+                  <p class='filter__keyboard-text'>А</p>
+                  <p class='filter__keyboard-text'>Б</p>
+                  <p class='filter__keyboard-text'>В</p>
+                  <p class='filter__keyboard-text'>Г</p>
+                  <p class='filter__keyboard-text'>Д</p>
+                  <p class='filter__keyboard-text'>Е</p>
+                  <p class='filter__keyboard-text'>З</p>
+                  <p class='filter__keyboard-text'>И</p>
+                  <p class='filter__keyboard-text'>К</p>
+                  <p class='filter__keyboard-text'>Л</p>
+                  <p class='filter__keyboard-text'>М</p>
+                  <p class='filter__keyboard-text'>Н</p>
+                  <p class='filter__keyboard-text'>О</p>
+                  <p class='filter__keyboard-text'>П</p>
+                  <p class='filter__keyboard-text'>Р</p>
+                  <p class='filter__keyboard-text'>С</p>
+                  <p class='filter__keyboard-text'>Т</p>
+                  <p class='filter__keyboard-text'>У</p>
+                  <p class='filter__keyboard-text'>Ф</p>
+                  <p class='filter__keyboard-text'>Х</p>
+                  <p class='filter__keyboard-text'>Ч</p>
+                  <p class='filter__keyboard-text'>Ш</p>
+                  <p class='filter__keyboard-text'>Э</p>
+                  <p class='filter__keyboard-text'>Ю</p>
+                  <p class='filter__keyboard-text'>Я</p>
+                </div>
+                <ul class='country-list'>
+                  <li class='country-item'>Афганистан</li>
+                  <li class='country-item'>Албания</li>
+                  <li class='country-item'>Алжир</li>
+                  <li class='country-item'>Андорра</li>
+                  <li class='country-item'>Аргентина</li>
+                  <li class='country-item'>Армения</li>
+                  <li class='country-item'>Австралия</li>
+                  <li class='country-item'>Австрия</li>
+                  <li class='country-item'>Азербайджанм</li>
+                </ul>
+                <button class='popup-closed' type='button'><img class='closed-img' src='#'>свернуть</button>
+        <section class='selection'>
+          <h2 class='selection-name'>Подберите идеального попутчика</h2>
+          <div class='selection-line'></div>
+          <button class='selection-item'>Хобби</button>
+          <button class='selection-item'>Музыка</button>
+          <label class='selection-item__label'>
+            <input type='checkbox' name='rock' checked>
+            Тяжелый рок
+          </label>
+          <label class='selection-item__label'>
+            <input type='checkbox' name='rap'>
+            Русский рэп
+          </label>
+          <label class='selection-item__label'>
+            <input type='checkbox' name='eudance'>
+            Евроденс
+          </label>
+          <button class='selection-item'>Еда</button>
+          <button class='selection-item'>Транспорт</button>
+        -->
+          <!--кастомный чек бокс-->
+          <label class='selection-item__label'>
+            <input type='checkbox' name='air' checked>
+            <img class='selection-item__label-img' src='#' alt='на самолете'>
+          </label>
+          <label class='selection-item__label'>
+            <input type='checkbox' name='bus' checked>
+            <img class='selection-item__label-img' src='#' alt='на автобусе'>
+          </label>
+          <label class='selection-item__label'>
+            <input type='checkbox' name='bike' checked>
+            <img class='selection-item__label-img' src='#' alt='на велосипеде'>
+          </label>
+          <label class='selection-item__label'>
+            <input type='checkbox' name='afoot' checked>
+            <img class='selection-item__label-img' src='#' alt='пешком'>
+          </label>
+          <button class='selection-item'>Левел</button>
+          <button class='selection-item__button button-catalog'>Показать</button>
+        </section>
         <section class='catalog-users'>
           <div class='catalog-users__user'>
             <img class='catalog-users__img' src='#' alt='автарка пользователя'>

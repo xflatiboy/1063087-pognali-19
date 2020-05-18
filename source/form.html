@@ -29,6 +29,215 @@
           </div>
           <h1 class='header__name-form'>Направления</h1>
       </header>
+      <main class='main-form'>
+        <section class='profile-form'>
+          <div class='content-wrapper'>
+            <h2 class='visually-hidden'>Профиль пользователя</h2>
+            <div class='profile-form__info'>
+              <div class='level level--form'>
+                <p class='level-text--form'>99</p>
+                <div class='level-line level-line--form'></div>
+                <b class='level-text--form'>level</b>
+              </div>
+              <img class='profile-form__img' src='img/photo-account-mobile@1x.jpg'
+              width='99' height='100'>
+            </div>
+            <button class='button button--form'>Сменить фото</button>
+            <div class='profile-form__block'>
+              <p class='profile-form__name-block'>Тэги</p>
+              <p class='profile-form__hashtag'>#бургер #бар #футбол #концерт #крафт</p>
+            </div>
+            <div class='profile-form__block profile-form__block--flex'>
+              <p class='profile-form__name-block'>Транспорт</p>
+              <img class='block__img profile__is-active' src='img/plane.svg' width='14' height='16' alt='На самолете'>
+              <img class='block__img' src='img/bus.svg' width='13' height='16' alt='на автобусе'>
+              <img class='block__img' src='img/bike.svg' width='19' height='17' alt='На велосипеде'>
+              <img class='block__img' src='img/run.svg' width='15' height='17' alt='пешком'>
+            </div>
+          </div>
+        </section>
+        <section class='form-block'>
+          <div class='content-wrapper'>
+            <h2 class='form-block__name'>Мои планы:</h2>
+            <div class='form-block__content'>
+              <p class='form-block__content-name'>1. Франция, Италия</p>
+              <p class='form-block__content-text'>3 попутчика</p>
+              <p class='form-block__content-text'>26 мар — 29 мар</p>
+              <button class='form-block__button'>Изменить</button>
+            </div>
+            <div class='form-block__content'>
+              <p class='form-block__content-name'>2. Таиланд, Индонезия</p>
+              <p class='form-block__content-text'>1 попутчик</p>
+              <p class='form-block__content-text'>1 июл — 15 июл</p>
+              <button class='form-block__button'>Изменить</button>
+            </div>
+          </div>
+        </section>
+        <section class='form-block form-block--color'>
+          <div class='content-wrapper'>
+            <div class='add-plan__name'>
+              <h2 class='form-block__name'>Добавить план:</h2>
+              <div class='add-plan__toggle add-plan__is-active'></div>
+              <div class='add-plan__toggle'></div>
+              <div class='add-plan__toggle'></div>
+            </div>
+            <div class='form-block__content'>
+              <p class='form-block__content-name form-block__content-name--size'>Шаг 1. Даты пребывания</p>
+              <p class='add-plan__text'>Укажите предпочтительное количество попутчиков, которых
+    вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
+              <div class='form-block__option'>
+                <div class='form-block__option-first'>
+                  <p class='form-block__option-text'>ищу попутчиков:</p>
+                  <p class='form-block__option-text form-block__option-text--grey'>Чел.</p>
+                </div>
+                <div class='form-block__option-second'>
+                  <button class='form-block__option-second-button form-block__option-second-button--minus'>-</button>
+                  <input class='form-block__option-second-input' type='text' placeholder='2'>
+                  <button class='form-block__option-second-button form-block__option-second-button--plus'>+</button>
+                </div>
+              </div>
+              <div class='form-block__option'>
+                <div class='form-block__option-first'>
+                  <p class='form-block__option-text'>Длительность:</p>
+                  <p class='form-block__option-text form-block__option-text--grey'>дн.</p>
+                </div>
+                <div class='form-block__option-second'>
+                  <button class='form-block__option-second-button form-block__option-second-button--minus'>-</button>
+                  <input class='form-block__option-second-input' type='text' placeholder='2'>
+                  <button class='form-block__option-second-button form-block__option-second-button--plus'>+</button>
+                </div>
+              </div>
+              <label>
+                <input type='checkbox' checked>Можно с детьми
+              </label>
+              <div class='form-block__month'>
+                <button class='month-button month-button--left'><img src='img/month-arrow-left.svg' width='9' height='17'></button>
+                <p class='form-block__content-name'>Март 2019</p>
+                <button class='month-button month-button--right'><img src='img/month-arrow-right.svg' width='9' height='17'></button>
+              </div>
+              <div class='calendar'>
+                <div class='calendar__week'>
+                  <div class='calendar__day'>П</div>
+                  <div class='calendar__day'>В</div>
+                  <div class='calendar__day'>С</div>
+                  <div class='calendar__day'>Ч</div>
+                  <div class='calendar__day'>П</div>
+                  <div class='calendar__day calendar__day--holiday'>С</div>
+                  <div class='calendar__day calendar__day--holiday'>В</div>
+                </div>
+                <div class='calendar__week'>
+                  <div class='calendar__number calendar__number--disabled'>23</div>
+                  <div class='calendar__number calendar__number--disabled'>24</div>
+                  <div class='calendar__number calendar__number--disabled'>25</div>
+                  <div class='calendar__number calendar__number--disabled'>26</div>
+                  <div class='calendar__number calendar__number--disabled'>27</div>
+                  <div class='calendar__number calendar__number--disabled'>28</div>
+                  <div class='calendar__number calendar__number--disabled'>1</div>
+                </div>
+                <div class='calendar__week'>
+                  <div class='calendar__number calendar__number--disabled'>2</div>
+                  <div class='calendar__number calendar__number--disabled'>3</div>
+                  <div class='calendar__number calendar__number--disabled'>4</div>
+                  <div class='calendar__number calendar__number--disabled'>5</div>
+                  <div class='calendar__number calendar__number--disabled'>6</div>
+                  <div class='calendar__number calendar__number--disabled'>7</div>
+                  <div class='calendar__number calendar__number--disabled'>8</div>
+                </div>
+                <div class='calendar__week'>
+                  <div class='calendar__number calendar__number--disabled'>9</div>
+                  <div class='calendar__number calendar__number--disabled'>10</div>
+                  <div class='calendar__number calendar__number--disabled'>11</div>
+                  <div class='calendar__number calendar__number--disabled'>12</div>
+                  <div class='calendar__number calendar__number--disabled'>13</div>
+                  <div class='calendar__number calendar__number--disabled'>14</div>
+                  <div class='calendar__number calendar__number--disabled'>15</div>
+                </div>
+                <div class='calendar__week'>
+                  <div class='calendar__number calendar__number--disabled'>16</div>
+                  <div class='calendar__number calendar__number--disabled'>17</div>
+                  <div class='calendar__number calendar__number--disabled'>18</div>
+                  <div class='calendar__number calendar__number--disabled'>19</div>
+                  <div class='calendar__number calendar__number--disabled'>20</div>
+                  <div class='calendar__number calendar__number--disabled'>21</div>
+                  <div class='calendar__number calendar__number--disabled'>22</div>
+                </div>
+                <div class='calendar__week'>
+                  <div class='calendar__number calendar__number--disabled'>23</div>
+                  <div class='calendar__number calendar__number--disabled'>24</div>
+                  <div class='calendar__number calendar__number--disabled'>25</div>
+                  <div class='calendar__number calendar__number--active calendar__number--curret'>26</div>
+                  <div class='calendar__number calendar__number--active'>27</div>
+                  <div class='calendar__number calendar__number--active'>28</div>
+                  <div class='calendar__number'>29</div>
+                </div>
+                <div class='calendar__week'>
+                  <div class='calendar__number'>30</div>
+                  <div class='calendar__number'>31</div>
+                  <div class='calendar__number'>1</div>
+                  <div class='calendar__number'>2</div>
+                  <div class='calendar__number'>3</div>
+                  <div class='calendar__number'>4</div>
+                  <div class='calendar__number'>5</div>
+                </div>
+              </div>
+            <button class='button'>Следующий шаг</button>
+          </div>
+          <div class='form-block__content'>
+            <h3 class='form-block__content-name form-block__content-name--size'>Шаг 2. Маршрут</h3>
+            <p class='add-plan__text'>Укажите страны, которые вы хотели по посетить. Это может быть одна или сразу несколько.</p>
+            <div class='country'>
+              <div class='country-circle'></div>
+              <div class='country-close'>
+                <button class='small-cross'></button>
+              </div>
+              <div class='country-point country-point--width'><div class='country-dropdown'><button class='dropdown'></button></div>Босния и герцегов</div>
+              <div class='country-point'><img src='img/flag-bosnia.svg' width='35' height='24' alt='флаг выбранной страны'></div>
+            </div>
+            <div class='country'>
+              <div class='country-circle'></div>
+              <div class='country-close'>
+                <button class='small-cross'></button>
+              </div>
+              <div class='country-point country-point--width'><div class='country-dropdown'><button class='dropdown'></button></div>Чехия</div>
+              <div class='country-point'><img src='img/flag-czech.svg' width='35' height='24' alt='флаг выбранной страны'></div>
+            </div>
+            <div class='country-point country-point--width'><div class='country-dropdown'><button class='dropdown'></button></div><div class='country-circle country-circle--white'></div>Выберите страну
+            <div class='country-close'>
+                <button class='small-cross'></button>
+              </div></div>
+            <div class='country-point country-point--width country-point--grey'><div class='country-dropdown'><button class='plusform'></button></div><div class='country-circle country-circle--white'></div>Добавить страну
+            <div class='country-close'>
+                <button class='small-cross'></button>
+              </div></div>
+            <button class='button'>Следующий шаг</button>
+            <button class='button button--no-background'>На шаг назад</button>
+          </div>
+          <div class='form-block__content'>
+            <h3 class='form-block__content-name form-block__content-name--size'>Шаг 3. Развлечения</h3>
+            <p class='add-plan__text'>Наконец, расскажите о своих планах времяпровождения. Можно писать в свободной форме и ставить тэги.</p>
+              <label>
+                <div class='country'>
+                  <div class='country__element'></div>
+                  <div class='country-point country-point--width country-point--no-border'>Босния и герцегов</div>
+                  <div class='country-point country-point--no-border'><img src='img/flag-bosnia.svg' width='35' height='24' alt='флаг выбранной страны'></div>
+                </div>
+                <textarea class='country__textarea' type='text' rows='10' placeholder='План действий'></textarea>
+              </label>
+
+              <label>
+                <div class='country'>
+                <div class='country-point country-point--width country-point--no-border'>Чехия</div>
+                <div class='country-point country-point--no-border'><img src='img/flag-czech.svg' width='35' height='24' alt='флаг выбранной страны'></div>
+                </div>
+                <textarea class='country__textarea' type='text' rows='10' placeholder='План действий'>Пить пиво и лазить по старым замкам, наслаждаться архитектурой и вот это все.
+                </textarea>
+              </label>
+              <button class='button'>Отрпавить</button>
+              <button class='button button--no-background'>На шаг назад</button>
+            </div>
+          </div>
+        </section>
+      </main>
       <footer class='footer'>
         <a class='footer__we-logo'>
           <img class='logo-img' src='img/logo-mobile-blue@1x.png' width='96' height='15' alt='Погнали?'>
