@@ -5,8 +5,263 @@
     <title>HTML Academy: Погнали</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+    <div class='wrapper'>
+      <header class='header'>
+        <div class='header-top'>
+          <img class='logo'>
+          <div class='header-top__menu'>
+            <button class='burger'></button>
+          </div>
+        </div>
+        <b class='header__slogan'>
+          В путешествие
+          с крутыми попутчиками!
+        </b>
+        <div class='header-nav'>
+          <button class='button'></button>
+          <button class='button'></button>
+          <button class='button'>авторизация</button>
+        </div>
+        <section class='header__reviews'>
+          <blockquote class='reviews-block'>
+            <p class='reviews-block__text'>
+              «Лучшее приложение,
+              что я видел в жизни!»
+            </p>
+            <cite class='reviews-block__text reviews-block__text--bold'>
+              Мурат Эльтазин
+              главный редактор
+              газеты «гаджетлайф»
+            </cite>
+          </blockquote>
+        </section>
+        <section class='instruction'>
+          <h2 class='visually-hidden'>Инструкция</h1>
+          <ul class='instruction__list '>
+            <li class='instruction__item instruction__item--mango'>
+              <p class='instruction__text'>
+                Выберите
+                направление
+              </p>
+              <p class='instruction__text instruction__text--white'>1</p>
+            </li>
+            <li class='instruction__item instruction__item--mango-two'>
+              <p class='instruction__text'>
+                Изучите идеи
+                путешественников
+              </p>
+              <p class='instruction__text instruction__text--white'>2</p>
+            </li>
+            <li class='instruction__item instruction__item--orange'>
+              <p class='instruction__text'>
+                Находите тех,
+                кто похож на вас
+              </p>
+              <p class='instruction__text instruction__text--white'>3</p>
+            </li>
+            <li class='instruction__item instruction__item--yellow instruction__item--border-bottom'>
+              <p class='instruction__text'>
+                Путешествуйте
+                вместе!
+              </p>
+              <p class='instruction__text instruction__text--white'>4</p>
+            </li>
+          </ul>
+        </section>
+      </header>
+      <main class='page-main'>
+        <section class='service-block service-block__background service-block--first-block'>
+          <div class='service-block__content service-block__content--first'>
+            <h2 class='block-name'>О сервисе</h2>
+            <p class='service-block__text'>
+              Любое путешествие веселее
+              с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих.
+            </p>
+            <p class='service-block__text service-block__text--bold'>
+              А если найдете кого-то близкого по духу — скорее зовите в совместный трип!
+            </p>
+          </div>
+        </section>
+        <section class='service-block service-block--white service-block--second-block'>
+          <div class='service-block__content'>
+            <h2 class='block-name'>Направления</h2>
+            <p class='service-block__text service-block__text--grey'>
+              Мы не продаем туры
+              и ничего не рекламируем.
+              Люди сами пишут о странах, куда хотели бы отправиться
+              и чем можно там заняться.
+            </p>
+            <ul class='service-block__list'>
+              <li class='service-block__item'>
+                <img class='service-block__item-img' src='img/thailand-mobile@1x.jpg' width='270' height='110' alt='Фото страны'>
+                <div class='service-block__country'>
+                  <img class='service-block__country-flag' src='https://via.placeholder.com/150x150' width='35' height='24' alt='флаг страны'>
+                  <div class='service-block__country-info'>
+                    <h3 class='service-block__country-name'>Таиланд</h3>
+                    <p class='service-block__country-text'>Джунгли зовут!</p>
+                  </div>
+                  <p class='service-block__country-text'>18321</p>
+                </div>
+              </li>
+              <li class='service-block__item'>
+                <img class='service-block__item-img' src='img/france-mobile@1x.jpg' width='270' height='110' alt='Фото страны'>
+                <div class='service-block__country'>
+                  <img class='service-block__country-flag' src='https://via.placeholder.com/150x150' width='35' height='24' alt='флаг страны'>
+                  <div class='service-block__country-info'>
+                    <h3 class='service-block__country-name'>Франция</h3>
+                    <p class='service-block__country-text'>Трэ бьен, манифик!</p>
+                  </div>
+                  <p class='service-block__country-text'>12518</p>
+                </div>
+              </li>
+              <li class='service-block__item'>
+                <img class='service-block__item-img' src='img/czech-mobile@1x.jpg' width='270' height='110' alt='Фото страны'>
+                <div class='service-block__country'>
+                  <img class='service-block__country-flag' src='https://via.placeholder.com/150x150' width='35' height='24' alt='флаг страны'>
+                  <div class='service-block__country-info'>
+                    <h3 class='service-block__country-name'>Чехия</h3>
+                    <p class='service-block__country-text'>Закоулки старой Европы</p>
+                  </div>
+                  <p class='service-block__country-text'>5326</p>
+                </div>
+              </li>
+            </ul>
+            <div class='service-block__button button'>
+              <a class='service-block__to-all' href='catalog.html'>Показать все</a>
+              <div class='service-block__button-right'>1</div>
+            </div>
+          </div>
+        </section>
+        <section class='service-block service-block--third-block'>
+          <div class='service-block__content'>
+            <h2 class='block-name'>Попутчики</h2>
+            <p class='service-block__text'>
+              Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.
+            </p>
+            <p class='service-block__text service-block__text--bold'>
+              Теперь можно легко найти единомышленников!
+            </p>
+            <ul class='service-block__list'>
+              <li class='service-block__item service-block__item--center'>
+                <div class='service-block__item-profile'>
+                  <img class='service-block__item-photo' src='img/firsova-desktop@1x.jpg' width='270' height='270' alt='фото пользователя'>
+                  <div class='level'>
+                    <p class='level-text'>99</p>
+                    <div class='level-line'></div>
+                    <b class='level-text'>level</b>
+                  </div>
+                </div>
+                <div class='service-block__item-description'>
+                  <div class='service-block__item-countries'>
+                    <img class='service-block__item-flag' src='https://via.placeholder.com/150x150' width='35' height='24' alt='флаг страны'>
+                    <img class='service-block__item-flag' src='https://via.placeholder.com/150x150' width='35' height='24' alt='флаг страны'>
+                    <img class='service-block__item-flag' src='https://via.placeholder.com/150x150' width='35' height='24' alt='флаг страны'>
+                  </div>
+                  <div class='service-block__item-block'>
+                    <div class='service-block__item-status'></div>
+                    <span class='service-block__item-name'>Таня&nbsp;Фирсова</span>
+                  </div>
+                  <p class='service-block__item-hashtag'>
+                    #ЗОЖ #ПП #Фитнес #пляж
+                    #авокадо #смузи
+                  </p>
+                  <div class='service-block__item-movement'>
+                    <img class='service-block__item-movement-img service-block__item-is-active' src='img/plane.svg' width='19' height='21' alt='самолет'>
+                    <img class='service-block__item-movement-img' src='img/bus.svg' width='17' height='21' alt='автобус'>
+                    <img class='service-block__item-movement-img' src='img/bike.svg' width='24' height='21' alt='велосипед'>
+                    <img class='service-block__item-movement-img' src='img/run.svg' width='20' height='21' alt='пешком'>
+                  </div>
+                </div>
+              </li>
+              <li class='service-block__item service-block__item--center'>
+                <div class='service-block__item-profile'>
+                  <img class='service-block__item-photo' src='img/demin-desktop@1x.jpg' width='270' height='270' alt='фото пользователя'>
+                  <div class='level'>
+                    <p class='level-text'>80</p>
+                    <div class='level-line'></div>
+                    <b class='level-text'>level</b>
+                  </div>
+                </div>
+                <div class='service-block__item-description'>
+                  <div class='service-block__item-countries'>
+                    <img class='service-block__item-flag' src='https://via.placeholder.com/150x150' width='35' height='24' alt='флаг страны'>
+                    <img class='service-block__item-flag' src='https://via.placeholder.com/150x150' width='35' height='24' alt='флаг страны'>
+                  </div>
+                  <div class='service-block__item-block'>
+                    <div class='service-block__item-status'></div>
+                    <p class='service-block__item-name'>
+                      Петя&nbsp;Демин
+                    </p>
+                  </div>
+                  <p class='service-block__item-hashtag'>
+                    #бургер #бар #футбол
+                    #концерт #крафт
+                  </p>
+                  <div class='service-block__item-movement'>
+                    <img class='service-block__item-movement-img service-block__item-is-active' src='img/plane.svg' width='19' height='21' alt='самолет'>
+                    <img class='service-block__item-movement-img' src='img/bus.svg' width='17' height='21' alt='автобус'>
+                    <img class='service-block__item-movement-img' src='img/bike.svg' width='24' height='21' alt='велосипед'>
+                    <img class='service-block__item-movement-img' src='img/run.svg' width='20' height='21' alt='пешком'>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a class='service-block__to-all button' href='form.html'>Показать всех</a>
+          </div>
+        </section>
+        <section class='service-block service-block--white service-block--fourth-block'>
+          <div class='service-block__content'>
+            <h2 class='block-name'>Добавьте<br>свой<br>профиль</h2>
+            <img class='add-profile__img-absolute' src='img/rates@1x.png' width='99' height='99'>
+            <div class="price-list">
+              <div class='price-list__wr'>
+                <div class="price-list__number">
+                  <div class="price-list__number-content">1</div>
+                </div>
+                <div class="price-list__text">
+                  <div class="price-list__text-first">Базовое размещение</div>
+                  <div class="price-list__text-second">Бесплатно</div>
+                </div>
+              </div>
+              <div class='price-list__wr'>
+                <div class="price-list__number">
+                  <div class="price-list__number-content">2</div>
+                </div>
+                <div class="price-list__text">
+                  <div class="price-list__text-first">Вывод на первых позициях</div>
+                  <div class="price-list__text-second">99 руб./мес</div>
+                </div>
+              </div>
+              <div class='price-list__wr'>
+                <div class="price-list__number">
+                  <div class="price-list__number-content">3</div>
+                </div>
+                <div class="price-list__text">
+                  <div class="price-list__text-first">Кастомный цвет карточки</div>
+                  <div class="price-list__text-second">59 руб./мес</div>
+                </div>
+              </div>
+            </div>
+            <a class='service-block__button-to-business'>Показать тарифы для бизнеса</a>
+          </div>
+        </section>
+      </main>
+      <footer class='footer'>
+        <a class='footer__we-logo'>
+          <img class='logo-img' src='img/logo-mobile-blue@1x.png' width='96' height='15' alt='Погнали?'>
+          <!--почему у лого класс никак в хедере?-->
+        </a>
+        <div class='footer__social'>
+          <div class='footer__social-link' href='#'>
+            <a><img class='footer__social-link--facebook' src='img/facebook.svg' width='11' height='22' alt='фейсбук'></a></div>
+          <div class='footer__social-link' href='#'><a><img class='footer__social-link--vk' src='img/vk.svg' width='23' height='12' alt='вконтакте'></a></div>
+          <div class='footer__social-link' href='#'><a><img class='footer__social-link--instagram' src='img/instagram.svg' width='18' height='18' alt='инстаграмм'></a></div>
+        </div>
+        <div class='footer__developed'>
+          <p class='footer__text'>Разработано</p>
+          <a class='footer__html-academy'><img class='footer__img' src='img/htmlacademy.svg' width='27' height='34' alt='html-academy'></a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
